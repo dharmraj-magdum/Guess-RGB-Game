@@ -6,10 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GUESS RGB GAME</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
 </head>
 
 <body>
-    hellow to my game
+    <section class="main">
+        <h1> GUESS RGB VALUE OF COLOR </h1>
+        <div id="question">
+            <ul class="info">
+                [
+                <!-- <li>[</li> -->
+                <li>R</li>
+                <li>G</li>
+                <li>B</li>
+                <!-- <li>]</li> -->
+                ]
+            </ul>
+            <p id="values">[255 , 0 , 255]
+            </p>
+        </div>
+        <div id="colors">
+            <button class="btn" id="color1" onclick="guess()"></button>
+            <button class="btn" id="color2" onclick="guess()"></button>
+            <button class="btn" id="color3" onclick="guess()"></button>
+        </div>
+        <h2>Select the COLOR you Guessed</h2>
+        <button id="replay" onclick="replay()">Replay</button>
+    </section>
+
 </body>
 
 </html>
