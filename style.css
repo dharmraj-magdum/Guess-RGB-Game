@@ -36,9 +36,11 @@ h1 {
 	box-shadow: -0.5rem -0.5rem 0.1rem #715965, 0.5rem 0.5rem 0.1rem #715965;
 }
 #question {
+	min-height: 8rem;
 	text-align: center;
 	font-size: 2rem;
-	margin-top: 2rem;
+	margin-top: 1rem;
+	/* border: 1px solid #000; */
 }
 #question .info {
 	width: 100%;
@@ -52,7 +54,7 @@ h1 {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-	margin: 3rem;
+	margin: 1.5rem;
 }
 
 .btn {
@@ -68,7 +70,7 @@ h1 {
 #replay {
 	height: 4rem;
 	width: 6rem;
-	margin: 2rem auto;
+	margin-top: 2rem;
 	padding: 0.5rem 1rem;
 	font-size: 1.5rem;
 	text-align: center;
